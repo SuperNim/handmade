@@ -1,0 +1,27 @@
+.ops {
+    margin-top: -100px;
+
+}
+.no_product {
+    width: 800px;
+    height: 60px;
+    background: #e0b252;
+}
+.attention {
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 15px;
+    color: white;
+}
+.attention_text {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+.attention_link {
+    display: inline-block;
+    margin-left: 5px;
+    color: white;
+    border-bottom: 1px solid white;
+    font-weight: 600;
+}

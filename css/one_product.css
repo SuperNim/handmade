@@ -1,0 +1,210 @@
+.one_product {
+    margin-bottom: 40px;
+    border-bottom: #9a9a9a;
+}
+.one_product .kartinka_v_one_product {
+    margin-top: 40px;
+    margin-left: 80px;
+    background: url("../img/img_5.png");
+    width: 500px;
+    height: 600px;
+    background-size: 105%;
+    background-position: center;
+    transition: background-size 0.5s ease;
+    display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+}
+.one_product .kartinka_v_one_product:hover {
+    background-size: 115%;
+}
+.sprava_ot_kartinka_v_one_product {
+    display: inline-block;
+}
+.sprava_ot_kartinka_v_one_product .name_product {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+.sprava_ot_kartinka_v_one_product .price_product {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #528c61;
+}
+.sprava_ot_kartinka_v_one_product .opesanie_product {
+    color: #9a9a9a;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.sprava_ot_kartinka_v_one_product .kolichestvo_product {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.sprava_ot_kartinka_v_one_product .vess_kolichestvo {
+    width: 100px;
+    height: 42px;
+    display: inline-block;
+}
+.minus_product {
+    width: 20px;
+    height: 32px;
+    display: inline-block;
+    border: 2px solid #cacaca;
+    vertical-align: center;
+    text-align: center;
+    padding-top: 10px;
+    transition: color 0.3s ease;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+.minus_product:hover {
+    background: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+.chifra_product {
+    width: 40px;
+    height: 32px;
+    display: inline-block;
+    border-top: 2px solid #cacaca;
+    border-bottom: 2px solid #cacaca;
+    vertical-align: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: -4px;
+    cursor: text;
+}
+.plus_product {
+    width: 20px;
+    height: 32px;
+    display: inline-block;
+    border: 2px solid #cacaca;
+    vertical-align: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: -5px;
+    transition: color 0.3s ease;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+.plus_product:hover {
+    background: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+.knopka_add_to_cart {
+    display: inline-block;
+    margin-left: 10px;
+    background: #4CAF50;
+    width: 100px;
+    height: 33px;
+    vertical-align: top;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    padding-top: 14px;
+}
+.knopka_add_to_cart:hover {
+    background: #458547;
+}
+.deystvie_dly_product {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #9a9a9a;
+}
+.compare_product {
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+.compare_product:hover {
+    color: #9a9a9a;
+}
+.deystvie_dly_product .compare_product .izobrajenie {
+    display: inline-block;
+}
+.izbrannoe_product {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: color 0.5s ease;
+}
+.izbrannoe_product:hover {
+    color: #9a9a9a;
+}
+.izobrajenie_2 {
+    display: inline-block;
+}
+.name_deystvie {
+    display: inline-block;
+}
+.categor_r {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.name_categor {
+    display: inline-block;
+    color: #9a9a9a;
+    cursor: pointer;
+}
+.facebook_product {
+    margin-top: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    color: black;
+}
+.nadpis_rating {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.star {
+    display: inline-block;
+    cursor: pointer;
+}
+.star:hover {
+    color: yellow;
+}
+.vse_razdeli_one_product {
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+}
+.razdeli_one_product {
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+}
+.razdeli_one_product:hover {
+    color: #9a9a9a;
+    border-top: 1px solid #458547;
+}
+.dop_margin {
+    margin-left: -5px;
+}
+.vse_description_one_product {
+    border-bottom: 1px solid #dcdcdc;
+}
+.description_one_product {
+    margin: 50px;
+    color: #9a9a9a;
+}
+.nadpis_k_slidery {
+    margin: 50px 50px 20px 70px;
+    font-size: 30px;
+}
+.margin {
+    width: 1210px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}

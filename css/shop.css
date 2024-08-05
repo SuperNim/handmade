@@ -1,0 +1,312 @@
+.name_shop {
+    width: 100%;
+    height: 82px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background: #f1f1f1;
+    font-size: 50px;
+    padding-top: 18px;
+}
+.filter {
+    margin-top: 50px;
+    width: 350px;
+    border-bottom: 1px solid #989898;
+    padding-bottom: 30px;
+}
+.PRODUCT_CATEGORIES {
+    font-size: 20px;
+    font-weight: 600;
+}
+.gategorey_nije {
+    margin-top: 15px;
+    color: #606060;
+    cursor: pointer;
+    height: 20px;
+}
+.gategorey_nije:hover {
+    color: black;
+}
+.kolichestvo_tovara {
+    margin-top: -18px;
+    margin-left: 300px;
+    width: 30px;
+    height: 20px;
+    border-bottom: 1px solid #606060;
+    border-top: 1px solid #606060;
+    border-radius: 40%;
+    color: #606060;
+    text-align: center;
+}
+.stroka_filter:hover > .kolichestvo_tovara {
+    background: #1aaf41;
+    transition: background 0.5s ease;
+    color: white;
+}
+.FILTER_BY_PRICE {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.slider_3 {
+    margin-top: 30px;
+    -webkit-appearance: none;
+    width: 350px;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider_3::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.slider_3::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.obshiy_filter {
+    display: inline-block;
+    vertical-align: top;
+}
+.obshiy_filter .polzunok_cenu_filter {
+    margin-top: 30px;
+}
+.obshiy_filter .price_polzunka {
+    color: #606060;
+    display: inline-block;
+}
+.suma_polzunka {
+    display: inline-block;
+    font-weight: 600;
+}
+.obshiy_filter .kopka_filter {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    background: #d7d7d7;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.obshiy_filter .kopka_filter:hover {
+    background: #a9a9a9;
+    transition: background 0.5s ease;
+}
+.obshiy_filter .polzunok_cenu_filter {
+    padding-bottom: 50px;
+    width: 350px;
+    border-bottom: 1px solid #989898;
+}
+.obshiy_filter .kartina_chvetochka {
+    width: 350px;
+    height: 350px;
+    background: url("../img/img_20.png");
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 0.5s ease;
+}
+.obshiy_filter .kartina_chvetochka:hover {
+    background-size: 110%;
+}
+.kartina_chvetochka .verx {
+    padding-top: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #50b068;
+    font-weight: 600;
+}
+.seredina {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.niz {
+    width: 80px;
+    height: 20px;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background: #528c61;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.niz:hover {
+    background: #4fa867;
+    transition: background 0.5s ease;
+}
+.katatalog_s_tovarami {
+    width: 840px;
+    height: 1720px;
+    border-left: 1px solid #989898;
+    border-right: 1px solid #989898;
+    display: inline-block;
+}
+.vse {
+    width: 840px;
+    height: 300px;
+    padding-bottom: 40px;
+}
+.kartinka_v_shop {
+    width: 300px;
+    display: inline-block;
+}
+.kartinka_v_shop img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 281px;
+    height: 300px;
+    z-index: 1;
+    cursor: pointer;
+}
+.dli_inlin_block {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+.nazvanie_tovara_v_blocke {
+    font-size: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.nazvanie_tovara_v_blocke:hover {
+    color: #9a9a9a;
+    transition: color 0.3s ease;
+}
+.kategorya_tovara_v_blocke {
+    font-size: 15px;
+    color: #9a9a9a;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.kategorya_tovara_v_blocke:hover {
+    color: black;
+    transition: color 0.3s ease;
+}
+.price_tovara_v_blocke {
+    color: #59c472;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.opesanie_tovara_v_blocke {
+    font-size: 15px;
+    color: #9a9a9a;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+.knopka_kupit_tovara_v_blocke {
+    width: 100px;
+    height: 23px;
+    padding-top: 7px;
+    background: #528c61;
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+.knopka_kupit_tovara_v_blocke .knopka_kupit_tovara_v_blocke_kontent {
+    width: 100px;
+    height: 46px;
+    text-align: center;
+    transition: margin-top 0.5s ease;
+}
+.knopka_kupit_tovara_v_blocke:hover > .knopka_kupit_tovara_v_blocke_kontent {
+    margin-top: -33px;
+}
+.knopka_kupit_tovara_v_blocke:hover {
+    background: #4fa867;
+    transition: background 0.5s ease;
+}
+.moving_block_v_blocke {
+    width: 30px;
+    height: 120px;
+    background: #ffffff;
+    margin-top: -280px;
+    margin-left: 290px;
+    z-index: 2;
+    opacity: 0;
+    transition: margin-left 0.3s ease, opacity 0.5s cubic-bezier(0,-0.01, 0, 1.65);
+    position: relative;
+}
+.plus {
+    margin-left: 0px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.plus_2 {
+    padding-left: 3px;
+    cursor: pointer;
+}
+.plus_3 {
+    padding-left: 8px;
+    cursor: pointer;
+}
+.tovary {
+    height: 343px;
+    border-bottom: 1px solid #989898;
+}
+.tovary:hover > .moving_block_v_blocke {
+    margin-left: 260px;
+    opacity: 1;
+    transition: margin-left 0.3s ease, opacity 0.5s cubic-bezier(1, 0.01, 0.25, 1);
+}
+#myRange_output {
+    width: 50px;
+    display: inline-block;
+}
+input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+    cursor: ew-resize;
+    box-shadow: -200px 0 0 200px #4fa867;
+}
+input[type='range'] {
+    overflow: hidden;
+    -webkit-appearance: none;
+}
+.perekluchenie {
+    margin-left: 700px;
+}
+.chefru_shopa {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 37px;
+    height: 27px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    padding-top: 7px;
+    padding-left: -3px;
+}
+.chefru_shopa:hover {
+    background: #e1e1e1;
+}
+.vudeleniy {
+    color: white;
+    background: #4fa867;
+}
+.vudeleniy:hover {
+    background: #4fa867;
+}
+p {
+    margin: 0;
+}
+

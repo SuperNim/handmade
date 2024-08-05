@@ -1,0 +1,59 @@
+.footer  {
+    display: flex;
+    width: 100%;
+    min-height: 170px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer_column {
+    width: 300px;
+    height: 170px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer_column .nazvanie_sayta {
+    font-size: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.footer_column .opesanie_sayta {
+    color: #646262;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer_column .kontact_na_sayte {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.footer_column .kontact_na_sayte .nadpic_k_kartinke {
+    color: #646262;
+}
+.footer_column .kontact_na_sayte .kartinka_contacta {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer_column .kontact_na_sayte .nadpic_k_kartinke {
+    display: inline-block;
+}
+.footer_column .oglavlenie_ssulke {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.footer_column .oglavlenie_ssulke {
+    margin-top: 20px;
+}
+.footer_column .sami_ssulke {
+    color: #646262;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: color 0.6s ease;
+}
+.footer_column .sami_ssulke:hover {
+    color: #232323;
+}
+.footer_column .ssulka_telefon {
+    cursor: pointer;
+}

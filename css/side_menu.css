@@ -1,0 +1,219 @@
+.side_menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    top: 0;
+}
+div .side_menu  {
+    height: 100px;
+    overflow: auto;
+    width: 200px;
+}
+#side_basket {
+    display: none;
+}
+body #side_basket .menu {
+    width: 307px;
+    height: 100%;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.Shopping_cart {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.krest {
+    transform: scale(1.5);
+    display: inline-block;
+    margin-right: 3px;
+}
+.knopka_close {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.knopka_close:hover {
+    color: #9a9a9a;
+    transition: color 0.3s ease;
+}
+.tovar {
+    width: 298px;
+    height: 70%;
+    min-height: 300px;
+}
+.tovar .tovar_1 {
+    margin-top: 10px;
+    width: 298px;
+    height: 100px;
+    border-top: 1px solid #c7c7c7;
+    cursor: pointer;
+}
+.tovar .tovar_1:hover {
+    background: #fafafa;
+    transition: background 0.5s ease;
+}
+.tovar_1 img {
+    margin-top: 10px;
+    width: 70px;
+    height: 80px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.tovar_1 .name_tovar {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.kolichestvo {
+    margin-top: -55px;
+    margin-left: 94px;
+    color: #9a9a9a;
+}
+.chenik {
+    color: #528c61;
+    margin-top: -19px;
+    margin-left: 118px;
+}
+.krest_2 {
+    margin-left: 280px;
+    margin-top: -45px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.krest_2:hover {
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+}
+.suma {
+    width: 298px;
+    height: 45px;
+    border-top: 1px solid #c7c7c7;
+}
+.Subtotal {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+}
+.denigi {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+    color: #528c61;
+}
+.VIEW_CART {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    background: #e0e0e0;
+    cursor: pointer;
+}
+.VIEW_CART:hover {
+    background: #a8a8a8;
+    transition: background 0.5s ease;
+}
+.CHECKOUT {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    background: #528c61;
+    cursor: pointer;
+    color: white;
+}
+.CHECKOUT:hover {
+    background: #2cd35c;
+    transition: background 0.5s ease;
+}
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.menu::-webkit-scrollbar {
+    width: 7px;
+}
+.menu::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+.menu::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #363636;
+}
+body {
+    margin: 0;
+}
+.side_menu .menu {
+    width: 307px;
+    height: 100%;
+    background: white;
+}
+.side_menu_search {
+    width: 230px;
+    height: 70px;
+    padding-left: 20px;
+    border: none;
+    padding-right: 0;
+}
+.side_menu_search_poesk {
+    width: 45px;
+    height: 70px;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.menu_tabs {
+    width: 300px;
+    height: 37px;
+}
+.menu_tabs .tab {
+    width: 150px;
+    height: 100%;
+    background: rgba(206, 206, 206, 0.45);
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    transition: background-color 0.5s ease, border-bottom 0.5s ease;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(206, 206, 206, 0.45);
+}
+.menu_tabs .tab:hover {
+    background: rgba(82,82,82,.45);
+    border-bottom: 2px solid #7ab38a;
+}
+.menu_tabs .punkt {
+    width: 275px;
+    height: 37px;
+    background: rgba(206, 206, 206, 0.45);
+    transition: background-color 0.5s ease, border-bottom 0.5s ease;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(206, 206, 206, 0.45);
+    padding-top: 22px;
+    padding-left: 25px;
+}
+.menu_tabs .punkt:hover {
+    background: rgba(82,82,82,.45);
+    border-bottom: 2px solid #7ab38a;
+}
+.kategoria_punkt {
+    display: none;
+}
+.side_menu_active {
+    display: block!important;
+}

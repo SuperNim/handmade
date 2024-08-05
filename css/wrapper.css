@@ -1,0 +1,690 @@
+@font-face {
+    font-family: "Lora";
+    src: url("fonts/Lora/Lora-VariableFont_wght.ttf");
+}
+.wrapper {
+    width: 1200px;
+    margin: 0px auto;
+}
+.main_offer {
+    margin-top: 40px;
+}
+.left_big_block {
+    width: 586px;
+    height: 586px;
+    background: url("../img/img.png");
+    background-size: 105%;
+    background-position: center;
+    transition: background-size 0.5s ease;
+    display: inline-block;
+    vertical-align: top;
+}
+.left_big_block:hover {
+    background-size: 115%;
+}
+.discription {
+    font-size: 15px;
+    color: #1aaf41;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.title {
+    width: 526px;
+    font-size: 42px;
+    margin-top: 7px;
+    margin-left: 20px;
+    font-family: "Lora", Calibri, Tahoma, sans-serif;
+}
+.price {
+    width: 53px;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.price:hover {
+    color: #606060;
+    border-bottom: 2px solid #7ab38a;
+}
+.right_big_block {
+    width: 586px;
+    height: 586px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.right_big_block .width_block {
+    width: 584px;
+    height: 281px;
+    background: url("../img/img_1.png");
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 0.5s ease;
+    display: inline-block;
+}
+.right_big_block .width_block:hover {
+    background-size: 110%;
+}
+.bottom_block_left {
+    margin-top: 20px;
+    width: 334px;
+    height: 283px;
+    background: url("../img/img_2.png");
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 0.5s ease;
+    display: inline-block;
+    vertical-align: top;
+}
+.right_big_block .bottom_block_left:hover {
+    background-size: 110%;
+}
+.bottom_block_right {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 233px;
+    height: 283px;
+    background: url("../img/img_3.png");
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 0.5s ease;
+    display: inline-block;
+}
+.right_big_block .bottom_block_right:hover {
+    background-size: 110%;
+}
+.name_blocka {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+ .oboznachenie {
+    font-size: 15px;
+    color: #79b38a;
+    margin-bottom: 15px;
+    text-align: center;
+}
+ .osnovnoe_name {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.opesanie_bloka {
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #777777;
+}
+.slider {
+    width: 100%;
+    height: 400px;
+}
+.slider .item {
+    width: 281px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+}
+.slider .item .name_tovar {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.slider .item .name_tovar:hover {
+    color: #8c8c8c;
+}
+.slider .item .kategorya_tovara {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #a6a6a6;
+}
+.slider .item .kategorya_tovara:hover {
+    color: #818181;
+}
+.slider .item .chena_tovara {
+    margin-top: 5px;
+    text-align: center;
+    color: #79b38a;
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.slider .item .chena_tovara:hover {
+    color: #92daa6;
+}
+.slider .item:hover>.moving_block {
+    opacity: 1;
+    transition: opacity 1s cubic-bezier(0.79, 0.07, 0.62, 1.01), margin 1s ease;
+    margin: -120px auto;
+}
+.moving_block {
+    width: 185px;
+    height: 45px;
+    background: #ffffff;
+    margin: -100px auto;
+    z-index: 2;
+    position: relative;
+    opacity: 0;
+}
+.owl-carousel .owl-nav > button.owl-prev {
+    width: 5px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+    transform: scale(300%);
+    color: #494949;
+    margin-top: -60px;
+}
+.owl-carousel .owl-nav > button.owl-prev:hover {
+    background: white;
+    color: #9d9c9c;
+}
+.owl-carousel .owl-nav > button.owl-next {
+    width: 5px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -17px;
+    display: block !important;
+    border:0px solid black;
+    transform: scale(300%);
+    color: #494949;
+    margin-top: -60px;
+}
+.owl-carousel .owl-nav > button.owl-next:hover {
+    background: white;
+    color: #9d9c9c;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+.mini_korzina {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.mini_korzina:hover {
+    color: #868686;
+    transition: color 0.2s ease;
+}
+.mini_lupa {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    vertical-align: top;
+    margin-left: 13px;
+}
+.mini_lupa:hover {
+    color: #868686;
+    transition: color 0.2s ease;
+}
+.mini_strelki {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    vertical-align: top;
+    margin-left: 13px;
+}
+.mini_strelki:hover {
+    color: #868686;
+    transition: color 0.2s ease;
+}
+.mini_serdche {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    vertical-align: top;
+    margin-left: 13px;
+}
+.mini_serdche:hover {
+    color: #868686;
+    transition: color 0.2s ease;
+}
+.owl-dots {
+    display: none;
+}
+.slider.centr {
+    width: 100%;
+    height: 300px;
+}
+.slider.centr .item {
+    width: 385px;
+    height: 320px;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+}
+.slider.centr .item:hover>.moving_block {
+    opacity: 1;
+    transition: opacity 1s cubic-bezier(0.79, 0.07, 0.62, 1.01), margin 1s ease;
+    margin: -120px auto;
+}
+.slider.centr .owl-carousel .owl-nav > button.owl-prev {
+    width: 5px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+    transform: scale(300%);
+    color: #494949;
+    margin-top: -25px;
+}
+.owl-carousel .owl-nav > button.owl-prev:hover {
+    background: white;
+    color: #9d9c9c;
+}
+.slider.centr .owl-carousel .owl-nav > button.owl-next {
+    width: 5px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -17px;
+    display: block !important;
+    border:0px solid black;
+    transform: scale(300%);
+    color: #494949;
+    margin-top: -25px;
+}
+.owl-carousel .owl-nav > button.owl-next:hover {
+    background: white;
+    color: #9d9c9c;
+}
+.slider.centr .item::before {
+    width: 385px;
+    height: 400px;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    content: "";
+    transition: opacity 0.5s ease;
+}
+.slider.centr .item:hover:before {
+    opacity: 0.3;
+}
+.item.odin {
+    background: url("../img/img_27.png");
+    background-size: 100%;
+    transition: background-size 0.5s ease;
+    background-position: center;
+}
+.item.odin:hover {
+    background-size: 110%;
+}
+.item.odin:hover .slovo {
+    opacity: 0;
+}
+.item.odin:hover .kolichestvo_tovara_v_slider2 {
+    opacity: 1;
+}
+.item.dva {
+    background: url("../img/img_25.png");
+    background-size: 100%;
+    transition: background-size 0.5s ease;
+    background-position: center;
+}
+.item.dva:hover {
+    background-size: 110%;
+}
+.item.dva:hover .slovo {
+    opacity: 0;
+}
+.item.dva:hover .kolichestvo_tovara_v_slider2 {
+    opacity: 1;
+}
+.kolichestvo_tovara_v_slider2 {
+    margin-top: -40px;
+    margin-left: 120px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 3;
+    position: absolute;
+}
+.item.tre {
+    background: url("../img/img_26.png");
+    background-size: 100%;
+    transition: background-size 0.5s ease;
+    background-position: center;
+}
+.item.tre:hover {
+    background-size: 110%;
+}
+.item.tre:hover .slovo {
+    opacity: 0;
+}
+.item.tre:hover .kolichestvo_tovara_v_slider2 {
+    opacity: 1;
+}
+.item.chetury {
+    background: url("../img/img_28.png");
+    background-size: 100%;
+    transition: background-size 0.5s ease;
+    background-position: center;
+}
+.item.chetury:hover {
+    background-size: 110%;
+}
+.item.chetury:hover .slovo {
+    opacity: 0;
+}
+.item.chetury:hover .kolichestvo_tovara_v_slider2 {
+    opacity: 1;
+}
+.nadpic_do_hover {
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 0px auto;
+}
+.slovo {
+    font-size: 25px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background: #59a26c;
+    text-align: center;
+    padding-top: 10px;
+    margin: 123px auto 0;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.kategorya_kartinka {
+    width: 1104px;
+    height: 350px;
+    padding-left: 8%;
+}
+.ptichka {
+    width: 80px;
+    height: 70px;
+    background: #d0d0d0;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    display: inline-block;
+    margin-right: 200px;
+}
+.kulon  {
+    width: 80px;
+    height: 80px;
+    background: #d0d0d0;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-right: 200px;
+}
+.ojerelle {
+    width: 80px;
+    height: 85px;
+    background: #d0d0d0;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-right: 200px;
+}
+.sumka {
+    width: 80px;
+    height: 85px;
+    background: #d0d0d0;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    align-content: center;
+    padding-left: 8px;
+    display: inline-block;
+}
+.obisnenie_kategorii {
+    width: 276px;
+    height: 164px;
+    font-size: 14px;
+    border: 3px solid #d0d0d0;
+    margin-left: -90px;
+    margin-top: -25px;
+}
+.glavnoe {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+.vtorichnoe {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+.knopka {
+    width: 150px;
+    height: 30px;
+    background: #79b38a;
+    margin-top: 20px;
+    margin-left: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.knopka:hover {
+    cursor: pointer;
+    background: #528c61;
+    transition: background 0.4s ease;
+}
+.dli_perenosa {
+    display: inline-block;
+}
+.sveta  {
+    width: 526px;
+    height: 370px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+.sveta img {
+    margin-left: 210px;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+.vtoroe {
+    margin-top: 35px;
+}
+.raskaz {
+    margin-top: 20px;
+    text-align: center;
+    color: #8c8c8c;
+}
+.name_persons {
+    margin-top: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 160px;
+}
+.persons_kto {
+    text-align: center;
+    display: inline-block;
+    color: #8c8c8c;
+}
+.instagram {
+    width: 526px;
+    height: 370px;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+.instagram img {
+    width: 172px;
+    height: 183px;
+}
+.instagram img:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+    transition: filter 0.5s ease;
+}
+.sam_instagram {
+    margin-top: -280px;
+    margin-left: 85px;
+    width: 370px;
+    height: 200px;
+    text-align: center;
+    background: white;
+    position: absolute;
+}
+.inst {
+    margin-top: 40px;
+    font-size: 20px;
+}
+.acaunt {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #8c8c8c;
+}
+.text_inst {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #696969;
+}
+.posledney_block {
+    width: 100%;
+    height: 480px;
+    background: url("../img/img_19.png");
+    background-size: 100%;
+    background-position: center;
+}
+.oglavlenie {
+    color: #79b38a;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 120px;
+}
+.kakoyto_text {
+    width: 400px;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 480px;
+}
+.otpravka_maila {
+    margin-top: 20px;
+    display: inline-block;
+    opacity:0.5;
+}
+.otpravka_maila input {
+    width: 190px;
+    height: 25px;
+    margin-left: 530px;
+    border: 1px solid #3a3a3a;
+    font-size: 12px;
+    color: #3a3a3a;
+    outline:none;
+    padding-left: 10px;
+}
+.knopka_otpravit {
+    width: 80px;
+    height: 24px;
+    background: #79b38a;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    padding-top: 5px;
+    padding-left: -2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.knopka_otpravit:hover {
+    background: #528c61;
+    transition: background 0.5s ease;
+}
+.chto-to {
+    margin-top: 20px;
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 12px;
+    float: left;
+    margin-left: 530px;
+}
+.privacy {
+    margin-top: 20px;
+    margin-right: 540px;
+    float: right;
+    font-size: 12px;
+}
+.sochseti {
+    width: 570px;
+    height: 27px;
+    margin-top: 50px;
+    padding-top: 13px;
+    padding-left: 630px;
+}
+.facebook {
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    border: 1px solid #696969 ;
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-left: -30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.facebook:hover {
+    background: chocolate;
+    transition: background 0.5s ease;
+}
+.sochseti .mail {
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    border: 1px solid #696969 ;
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sochseti .mail:hover {
+    background: #62c90a;
+    transition: background 0.5s ease;
+}
+.gogle {
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    border: 1px solid #696969 ;
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.gogle:hover {
+    background: #f6ff0b;
+    transition: background 0.5s ease;
+}
+.ishka {
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    border: 1px solid #696969 ;
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.ishka:hover {
+    background: #05057d;
+    transition: background 0.5s ease;
+}

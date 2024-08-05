@@ -1,0 +1,179 @@
+.factory_kartinka {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.factory_kartinka_verx {
+    display: inline-block;
+}
+.factory_kartinka_niz {
+    display: inline-block;
+}
+.factory_kartinka_obchie img {
+    width: 290px;
+    height: 210px;
+    cursor: pointer;
+}
+.handmade_creations {
+    margin-top: 70px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 35px;
+    margin-left: 25px;
+    width: 585px;
+}
+.handmade_creations_oglavlenie_1 {
+    width: 550px;
+}
+.handmade_creations_oglavlenie_2 {
+    color: #528c61;
+    width: 350px;
+    margin-top: -40px;
+    margin-left: 183px;
+}
+.vc-zigzag-inner {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.punktu_handmade_1 {
+    width: 280px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.mini_oglavlenie {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.mini_opesanie {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+.punktu_handmade_2 {
+    width: 275px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.punktu_handmade_3 {
+    width: 280px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.punktu_handmade_4 {
+    width: 275px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.rasdelenye_punktov_handmade_1 {
+    display: inline-block;
+}
+.rasdelenye_punktov_handmade_2 {
+    display: inline-block;
+}
+.handmade_creations_knopka_1 {
+    margin-top: 11px;
+    font-size: 15px;
+    width: 170px;
+    height: 28px;
+    background: #65ad76;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    transition: background 0.5s ease;
+    display: inline-block;
+}
+.handmade_creations_knopka_1:hover {
+    background: #4a8351;
+    cursor: pointer;
+}
+.handmade_creations_knopka_2 {
+    border: 3px solid #9a9a9a;
+    margin-top: 11px;
+    font-size: 15px;
+    width: 120px;
+    height: 28px;
+    text-align: center;
+    padding-top: 12px;
+    transition: background 0.5s ease;
+    display: inline-block;
+}
+.handmade_creations_knopka_2:hover {
+    background: #9a9a9a;
+    cursor: pointer;
+}
+.oglavlenie_video {
+    width: 600px;
+    height: 85px;
+    font-size: 32px;
+    text-align: center;
+    margin: 100px auto 20px;
+}
+.volna {
+    margin-left: 540px;
+}
+iframe {
+    margin-top: 22.5px;
+    margin-left: 27.5px;
+}
+.video {
+    width: 830px;
+    height: 480px;
+    background: white;
+    margin: 1px auto;
+    position: relative;
+    z-index: 2;
+}
+.razdelu_video_obchie {
+    margin-top: -250px;
+    width: 100%;
+    height: 700px;
+    background: #ecfff2;
+    position: relative;
+    z-index: 1;
+}
+.oglavlenie_razdelu_video {
+    width: 600px;
+    height: 62px;
+    font-size: 22px;
+    padding-top: 270px;
+    text-align: center;
+    margin: 0 auto;
+}
+.razdelu_video {
+    width: 300px;
+    height: 240px;
+    border-right: 2px solid #9a9a9a;
+    display: inline-block;
+}
+.razdelu_video_kartinka {
+    margin: 40px 120px 10px;
+}
+.razdelu_video_name {
+    color: #1aaf41;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.razdelu_video_opesanie {
+    width: 275px;
+    height: 67px;
+    text-align: center;
+    margin: 0 auto;
+    color: #9a9a9a;
+}
+.bez_border {
+    border-right: none
+}
+.dli_left {
+    margin-left: 60px;
+}
+.knopka_pod_video {
+    width: 170px;
+    height: 31px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    margin: 40px auto;
+    cursor: pointer;
+}

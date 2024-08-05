@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Karla";
+    src: url("fonts/Karla/Karla-VariableFont_wght.ttf");
+}
+body {
+    font-family: "Karla", Calibri, Tahoma, sans-serif;
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 1220px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1010px) {
+    .container .contact, .container .actions {
+       display: none;
+    }
+    .container .burger {
+        display: block;
+        width: 70px;
+        height: 20px;
+    }
+    .container .basket {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+.burger {
+    display: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.basket {
+    display: none;
+    padding-right: 15px;
+}
+.container .burger span, .container .burger svg {
+    vertical-align: middle;
+}
+.contact {
+    width: 460px;
+    height: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact .telefon {
+    width: 170px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 21px;
+}
+.contact .telefon .icon {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact .telefon .info {
+    width: 120px;
+    height: 45px;
+    display: inline-block;
+    margin-left: 7px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.contact .telefon .info .text_bold {
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact .telefon .info .phone_number {
+    font-size: 14px;
+}
+.contact .mail {
+    width: 140px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.contact .mail .text_bold {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 11px;
+}
+.contact .mail .name_mail {
+    font-size: 14px;
+}
+.name_sayt {
+    display: inline-block;
+    width: 212px;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.actions {
+    width: 460px;
+    height: 58px;
+    display: inline-block;
+    padding-top: 32px;
+    vertical-align: middle;
+}
+.actions .login_register {
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+    vertical-align: top;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.actions .login_register:hover {
+    color: #606060;
+}
+.actions .poesk {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.actions .poesk:hover {
+    color: #606060;
+}
+.actions .ezbranoe {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.actions .ezbranoe:hover {
+    color: #606060;
+}
+.actions .korzina {
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 23px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.actions .korzina:hover {
+    color: #606060;
+}
+.actions .korzina span, .actions .korzina svg {
+    vertical-align: middle;
+}
+.razdels {
+    width: 100%;
+    height: 51px;
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.razdels .item_container {
+    width: 570px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1000px) {
+    .razdels {
+        display: none;
+    }
+    header  {
+        border-bottom: 1px solid black;
+    }
+}
+.razdels .menu_item {
+    margin-left: 20px;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+.razdels .menu_item:hover {
+    color: #606060;
+    border-bottom: 2px solid #7ab38a;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
